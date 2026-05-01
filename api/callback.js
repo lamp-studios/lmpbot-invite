@@ -31,8 +31,8 @@ export default async function handler(req, res) {
 
   const user = await userRes.json();
 
-  // Redirect to panel with their info
+  // Redirect to panel (Coming soon)
   res.redirect(
-    `https://lmpbot.sillycat.cloud/setup?username=${encodeURIComponent(user.username)}&id=${user.id}`
+    `https://pastebin.com/gBXapwYc`
   );
 }
